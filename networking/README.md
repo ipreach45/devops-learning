@@ -29,6 +29,6 @@ Architecture: Browser → DNS (Cloudflare) → EC2 public IP → Security group
 | EC2 Instance Connect failed | SSH rule limited to My IP; the browser connect tool uses AWS IPs | Allowed SSH from 0.0.0.0/0 for the exercise |
 
 ## Screenshots
-![Instance](screenshots/instance.png)
+![Instance](screenshots/instances.png)
 ![Nginx Welcome page](screenshots/nginx-status.png)
 ![Security rules](screenshots/security-group-rules.png)
